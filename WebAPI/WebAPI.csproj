@@ -21,11 +21,12 @@
 		</PackageReference>
 
 	</ItemGroup>
+
 	<ItemGroup>
-		<ProjectReference Include="..\Persistence\Persistence.csproj" />
+		<ProjectReference Include="..\src\corePackages\Core.CrossCuttingConcers\Core.CrossCuttingConcerns.csproj" />
+		<ProjectReference Include="..\src\Kodlama.io.Devs\Application\Application.csproj" />
+		<ProjectReference Include="..\src\Kodlama.io.Devs\Persistence\Persistence.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="NewFolder\" />
-	</ItemGroup>
+
 
 </Project>
